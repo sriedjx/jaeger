@@ -84,10 +84,6 @@ items:
       app.kubernetes.io/name: jaeger
       app.kubernetes.io/component: all-in-one
     type: LoadBalancer
-  status:
-  loadBalancer:
-    ingress:
-    - ip: localhost
 - apiVersion: v1
   kind: Service
   metadata:
